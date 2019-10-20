@@ -6,16 +6,11 @@
 
 
 def main():
-    # this function calculate if the year is a leap year
-    # input
     year = input("Enter a year: ")
     print("")
 
-    # process & output
-    # try & except
     try:
         number = int(year)
-        # checking if year entered is a leap year
         if (number % 4) == 0:
             if (number % 100) == 0:
                 if (number % 400) == 0:
