@@ -9,6 +9,7 @@ def main():
     year = input("Enter a year: ")
     print("")
 
+   
     try:
         number = int(year)
         if (number % 4) == 0:
